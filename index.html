@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhajit Khan | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="Subhajit Khan - Professional Photographer & Web Developer">
+    <meta name="theme-color" content="#121212">
+    <meta property="og:title" content="Subhajit Khan | Portfolio">
+    <meta property="og:description" content="Professional Photographer & Web Developer">
+    <meta property="og:type" content="website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" aria-label="Toggle dark/light mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">SK</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Social Icons -->
+    <div class="social-fixed">
+        <a href="https://www.linkedin.com/in/subhajitkhan1999/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.instagram.com/cine_subhajit" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:Khasubhajit5@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="title">Subhajit Khan</h1>
+                <h2 class="subtitle">BCA Student & Professional Photographer/Cinematographer</h2>
+                <p class="tagline">Capturing moments, crafting stories, and building digital experiences</p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="image/c8265ede-4da6-432a-8672-94730b12119f.jpg" alt="Subhajit Khan - Professional Photographer & Developer" loading="lazy">
+                </div>
+                <div class="about-text">
+                    <p>I'm a professional photographer/cinematographer and currently pursuing BCA from Techno International New Town, affiliated with MAKAUT University. I have a passion for visual storytelling and a growing interest in web development, with basic knowledge of HTML, CSS, JavaScript, and Node.js.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">Photography Gallery</h2>
+            <div class="gallery-grid">
+                <!-- Sample gallery items - replace with your actual images -->
+                <div class="gallery-item">
+                    <img src="https://source.unsplash.com/random/800x800?photography" alt="Photography 1" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://source.unsplash.com/random/800x801?nature" alt="Nature" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://source.unsplash.com/random/800x802?portrait" alt="Portrait" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://source.unsplash.com/random/800x803?city" alt="City" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://source.unsplash.com/random/800x804?travel" alt="Travel" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://source.unsplash.com/random/800x805?architecture" alt="Architecture" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-content">
+            <img src="" alt="">
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Subhajit kha" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Khasubhajit5@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <h3>Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/subhajitkhan1999/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+                           class="social-icon" 
+                           title="LinkedIn" 
+                           target="_blank" 
+                           rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/cine_subhajit" 
+                           class="social-icon" 
+                           title="Instagram" 
+                           target="_blank" 
+                           rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://mail.google.com/mail/?view=cm&to=Khasubhajit5@gmail.com" 
+                           class="social-icon" 
+                           title="Email"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Subhajit Khan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
